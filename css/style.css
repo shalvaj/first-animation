@@ -1,7 +1,19 @@
-.box1 {
+.box {
 	width: 1520px;
+	position: relative;
+
 }
 
 .backgr1 {
 	width: 100%
 }
+.box-car {
+	position: absolute;
+	top: 600px;
+	left: 1200px;
+	animation: car 10s infinite;
+}
+@keyframes car {
+ 	from {left: 1200px;}
+ 	to {left: 170px;}
+ }
